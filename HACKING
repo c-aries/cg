@@ -78,6 +78,7 @@ $ ssh -v git@github.com
 $ git init
 $ git add .
 $ git commit -a -m "project init"
+$ git gc
 $ git remote add origin git@github.com:c-aries/cg.git
 $ git push -u origin master
 * checkout from network
