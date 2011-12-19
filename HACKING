@@ -75,6 +75,7 @@ $ cat ~/.ssh/id_rsa.pub
 $ ssh-agent
 $ ssh-add
 $ ssh -v git@github.com
+= =b> https://github.com/repositories/new add new repo
 $ git init
 $ git add .
 $ git commit -a -m "project init"
