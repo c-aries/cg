@@ -75,10 +75,13 @@ $ cat ~/.ssh/id_rsa.pub
 $ ssh-agent
 $ ssh-add
 $ ssh -v git@github.com
-$ git remote add origin git@github.com:c-aries/utt.git
+$ git init
+$ git add .
+$ git commit -a -m "project init"
+$ git remote add origin git@github.com:c-aries/cg.git
 $ git push -u origin master
 * checkout from network
-$ git clone git@github.com:c-aries/utt.git
+$ git clone git@github.com:c-aries/cg.git
 * update from network
 $ git pull
 * commit to network
